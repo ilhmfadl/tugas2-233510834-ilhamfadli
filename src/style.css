@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+li {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+  margin-left: 10px;
+  font-style: italic;
+  color: #888;
+}
+
+button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-aktif {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-aktif:hover {
+  background-color: #2980b9;
+}
+
+.btn-nonaktif {
+  background-color: #bdc3c7;
+  color: white;
+  cursor: not-allowed;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+form,
+div[v-if] {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: green;
+}
